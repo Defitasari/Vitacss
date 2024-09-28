@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Formulir Pendaftaran Mahasiswa Baru</title>
+    <link rel="stylesheet" type="text/css" href="2317020024.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FORMULIR PENDAFTARAN MAHASISWA BARU</h1>
+        <h1>TAHUN AKADEMIK 2024 /2025</h1>
+        <form>
+            <div class="form-group">
+                <label for="noPendaftaran">No. Pendaftaran :</label>
+                <input type="text" id="noPendaftaran" name="noPendaftaran">
+            </div>
+            <div class="form-group">
+                <label for="programStudi">Program Studi yang dipilih :</label>
+                <select id="programStudi" name="programStudi">
+                    <option value="">Pilih Jurusan</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="namaSiswa">Nama Siswa :</label>
+                <input type="text" id="namaSiswa" name="namaSiswa">
+            </div>
+            <div class="form-group">
+                <label>Jenis Kelamin :</label>
+                <input type="radio" id="lakiLaki" name="jenisKelamin" value="Laki-laki">
+                <label for="lakiLaki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+            </div>
+            <div class="form-group">
+                <label for="tempatLahir">Tempat Lahir :</label>
+                <input type="text" id="tempatLahir" name="tempatLahir">
+            </div>
+            <div class="form-group">
+                <label for="tanggalLahir">Tanggal Lahir :</label>
+                <input type="text" id="tanggalLahir" name="tanggalLahir" placeholder="dd/mm/yyyy">
+            </div>
+            <div class="form-group">
+                <label for="agama">Agama :</label>
+                <select id="agama" name="agama">
+                    <option value="">Pilih Agama</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="alamatLengkap">Alamat Lengkap :</label>
+                <input type="text" id="alamatLengkap" name="alamatLengkap">
+            </div>
+            <div class="form-group">
+                <label for="noTelpon">No. Telpon :</label>
+                <input type="text" id="noTelpon" name="noTelpon">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <button type="submit">Daftarkan</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
